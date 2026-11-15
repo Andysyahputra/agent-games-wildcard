@@ -17,7 +17,7 @@
   GitHub URL in the submission form. No secrets are in the repo (there are
   none to leak: the agent is keyless).
 - **Vercel project:** `agent-games-wildcard`, account **andysyahputra**
-  (Hobby), deployment `dpl_59WpmUT3D2cMq463pWj3diDZCEdF`, state READY.
+  (Hobby), latest deployment `dpl_9JDZKGRGchwameTQTW6pJCiEsMjp`, state READY.
   Note: the deployment-specific URL (`...-qge7b1r77-....vercel.app`) is
   behind Vercel Authentication; the stable project URL above is public —
   use the stable URL in the form.

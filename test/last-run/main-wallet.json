@@ -3,8 +3,8 @@
   "track": "wildcard",
   "network": "BSC (chain 56)",
   "address": "0xce0a13d8aed5f8227c79d750ce42032753037037",
-  "checkedAt": "2026-11-15T01:18:43.614Z",
-  "checkedBlock": 133646399,
+  "checkedAt": "2026-11-15T01:20:43.838Z",
+  "checkedBlock": 133646666,
   "riskScore": 95,
   "riskLevel": "clean",
   "verdict": "CLEAN — no active allowances found in the checked scope. (See coverage limits below.)",
@@ -46,5 +46,5 @@
       "Read-only: this agent cannot revoke anything. Revoke in your own wallet (e.g. revoke.cash, BscScan Token Approvals) after checking the address yourself."
     ]
   },
-  "tookMs": 178
+  "tookMs": 174
 }
