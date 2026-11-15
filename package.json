@@ -1,0 +1,1 @@
+{"description":"zkVerify Agent Games Wildcard — Approval Guard: a token-approval / wallet-security checker agent for BSC (read-only, keyless)","engines":{"node":">=18"},"main":"server.js","name":"agent-games-wildcard","private":true,"scripts":{"start":"node server.js","test":"node test/run-tests.js && node test/fixture-test.js"},"type":"commonjs","version":"1.0.0"}

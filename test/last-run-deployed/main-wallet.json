@@ -1,0 +1,50 @@
+{
+  "agent": "approval-guard",
+  "track": "wildcard",
+  "network": "BSC (chain 56)",
+  "address": "0xce0a13d8aed5f8227c79d750ce42032753037037",
+  "checkedAt": "2026-11-15T01:18:38.899Z",
+  "checkedBlock": 133646385,
+  "riskScore": 95,
+  "riskLevel": "clean",
+  "verdict": "CLEAN — no active allowances found in the checked scope. (See coverage limits below.)",
+  "summary": {
+    "activeAllowances": 0,
+    "unlimited": 0,
+    "unknownSpenders": 0,
+    "tokensChecked": 8,
+    "knownSpendersChecked": 6,
+    "eventScanBlocks": 0,
+    "eventScanFromBlock": null,
+    "eventScanErrors": 0,
+    "eventScanSkipped": true
+  },
+  "allowances": [],
+  "coverage": {
+    "tokens": [
+      "WBNB",
+      "USDT",
+      "BUSD",
+      "USDC",
+      "CAKE",
+      "DAI",
+      "ETH",
+      "BTCB"
+    ],
+    "knownSpenders": [
+      "PancakeSwap V2 Router",
+      "PancakeSwap V3 Router",
+      "1inch Aggregation Router v5",
+      "OpenSea Seaport",
+      "PancakeSwap MasterChef",
+      "Permit2"
+    ],
+    "eventScan": "Event scan skipped: no log-capable RPC configured (set BSC_LOGS_RPC_URL). Public BSC endpoints reject eth_getLogs, so approvals to spenders outside the curated list are not visible in this report.",
+    "limits": [
+      "Does not audit spender contracts — a 'known' spender is trusted by reputation, not by proof.",
+      "Cannot see approvals on other chains — this report is BSC only.",
+      "Read-only: this agent cannot revoke anything. Revoke in your own wallet (e.g. revoke.cash, BscScan Token Approvals) after checking the address yourself."
+    ]
+  },
+  "tookMs": 25
+}
